@@ -1,0 +1,20 @@
+{ "data": [
+{
+  "name": "Semen",
+  "surname": "Semenov",
+  "date": 10,
+  "message": "Сегодня был прекрасный день"
+},
+{
+"name": "Pavel",
+"surname": "Yakupov",
+"date": 12,
+"message": "Сегодня был холодный день день"
+},
+  {
+    "name": "Igor",
+    "surname": "Katamaranov",
+    "date": 14,
+    "message": "Че происходит то?"
+  }
+]}
