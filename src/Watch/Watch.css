@@ -1,0 +1,11 @@
+.watch{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40%;
+    text-align: center;
+}
+.watch__button{
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
