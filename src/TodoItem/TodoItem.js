@@ -9,7 +9,7 @@ class TodoItem extends Component{
             </Button>
             <Button onClick={()=>
                 this.props.deleteItem(item.inner_key)}
-                color="Secondary"> Done</Button>
+                variant="contained" color="secondary"> Done</Button>
             </div>)
         }
 
