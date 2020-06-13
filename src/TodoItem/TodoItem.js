@@ -1,15 +1,25 @@
 import React, {Component} from "react";
 import Button from "@material-ui/core/Button";
 
+const todoItemcss = {
+    "margin": "20px"
+}
 class TodoItem extends Component{
     createTasks = item =>{
-         return (<div key= {item.inner_key}>
+         return (<div key= {item.inner_key} style={todoItemcss}>
             <Button>
             {item.text}
             </Button>
             <Button onClick={()=>
                 this.props.deleteItem(item.inner_key)}
                 variant="contained" color="secondary"> Done</Button>
+
+            <Button onClick={()=>
+                this.props.updateItem(item.inner_key)}
+                variant="contained" color="primary"> Update</Button>
+
+
+
             </div>)
         }
 
